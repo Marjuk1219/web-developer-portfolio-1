@@ -1,11 +1,13 @@
 /* common shared styles */
-body{
+body {
     font-family: "Open Sans", system-ui;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.button-primary{
+
+.button-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -17,41 +19,103 @@ body{
     padding: 18px 35px 19px 36px;
 
 }
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-descroption {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* nav related styles */
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin: 0 230px 0 226px;
 }
-.nav-title{
-    color: var(--Dark-01, #181818);
-font-size: 45px;
 
-font-weight: 800;
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+
+    font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 51px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747
 }
+
 /* Header Styles */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
-.banner .profile-picture{
+
+.banner .profile-picture {
     width: 584px;
     height: 676px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 131px 157px 131px 156px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
 }
