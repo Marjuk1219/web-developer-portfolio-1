@@ -145,8 +145,23 @@ main {
 }
 
 .info-description {
-    color: #474747;  
+    color: #474747;
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding: 151px 33px 30px 33px;
+    gap: 24px;
 }
